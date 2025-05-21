@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import Navigation from "@/components/Navigation.vue";
+import Hero from "@/components/Hero.vue";
 </script>
 
 <template>
-  <main>
+  <main class="px-5">
     <Navigation />
-
+    <Hero />
 
     <section>
 

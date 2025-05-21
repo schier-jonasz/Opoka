@@ -3,13 +3,13 @@ import Navigation from "@/components/Navigation.vue";
 </script>
 
 <template>
-  <Navigation />
-  <header>
-
-  </header>
-
   <main>
+    <Navigation />
 
+
+    <section>
+
+    </section>
   </main>
 </template>
 

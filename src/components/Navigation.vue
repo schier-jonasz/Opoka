@@ -1,16 +1,3 @@
-<script setup lang="ts">
-
-type NavItem = {name: string, href: string};
-const menuItems: NavItem[] = [
-  { name: 'NABOŻEŃSTWA', href: '#' },
-  { name: 'O NAS', href: '#' },
-  { name: 'WYZNANIE WIARY', href: '#' },
-  { name: 'AKTUALNOŚCI', href: '#' },
-  { name: 'STANDARDY OCHRONY MAŁOLETNICH', href: '#' }
-];
-
-</script>
-
 <template>
   <nav aria-label="main-navigation" class="px-20 py-2.5 text-black/80">
     <div class="flex justify-between items-center">
@@ -27,15 +14,28 @@ const menuItems: NavItem[] = [
       </ul>
 
       <!-- Placeholder for button (to be implemented later) -->
-      <div class="button-placeholder">
+      <Button>
         SKONTAKTUJ SIĘ
         <!-- Button component will be placed here -->
-      </div>
+      </Button>
     </div>
   </nav>
 
 </template>
+<script setup lang="ts">
+import Button from "@/components/Button.vue";
 
+
+type NavItem = {name: string, href: string};
+const menuItems: NavItem[] = [
+  { name: 'NABOŻEŃSTWA', href: '#' },
+  { name: 'O NAS', href: '#' },
+  { name: 'WYZNANIE WIARY', href: '#' },
+  { name: 'AKTUALNOŚCI', href: '#' },
+  { name: 'STANDARDY OCHRONY MAŁOLETNICH', href: '#' }
+];
+
+</script>
 <style scoped>
 
 </style>

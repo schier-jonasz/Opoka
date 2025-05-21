@@ -1,9 +1,9 @@
 <template>
   <button
-    class="py-4 px-12 rounded-xl bg-primary text-black80 transition-colors duration-200"
+    class="px-12 rounded-xl bg-primary text-black80 transition-colors duration-200 h-12 text-nowrap text-center"
     :class="{
       'hover:bg-secondary': hoverVariant === 'primary',
-      'hover:bg-transparent hover:border-2 hover:border-primary': hoverVariant === 'outlined'
+      'hover:bg-transparent hover:ring-2 hover:ring-primary': hoverVariant === 'outlined'
     }"
     type="button"
   >

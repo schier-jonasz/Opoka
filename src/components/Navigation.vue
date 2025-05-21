@@ -1,22 +1,18 @@
 <template>
   <nav aria-label="main-navigation" class="px-20 py-2.5 text-black/80">
     <div class="flex justify-between items-center">
-      <!-- Logo -->
-      <a href="/" class="logo-link" aria-label="Strona główna">
-        <img src="@/assets/img/Logo_black.svg" alt="Logo" class="logo" />
+
+      <a href="/" aria-label="Strona główna">
+        <img src="@/assets/img/Logo_black.svg" alt="Logo" />
       </a>
 
-      <!-- Menu items -->
       <ul class="flex items-center gap-2">
-        <li v-for="(item, index) in menuItems" :key="index" class="nav-item">
-          <a :href="item.href" class="nav-link">{{ item.name }}</a>
+        <li v-for="(item, index) in menuItems" :key="index">
+          <a :href="item.href">{{ item.name }}</a>
         </li>
       </ul>
-
-      <!-- Placeholder for button (to be implemented later) -->
       <Button>
         SKONTAKTUJ SIĘ
-        <!-- Button component will be placed here -->
       </Button>
     </div>
   </nav>

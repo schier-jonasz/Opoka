@@ -1,5 +1,5 @@
 <template>
-  <nav aria-label="main-navigation" class="px-20 py-2.5 text-black/80">
+  <nav aria-label="main-navigation" class="px-20 py-2.5">
     <div class="flex justify-between items-center">
 
       <a href="/" aria-label="Strona główna">

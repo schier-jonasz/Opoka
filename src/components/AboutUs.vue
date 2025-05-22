@@ -4,7 +4,7 @@
       <img src="@/assets/img/about-us.png" alt="About us" />
       <Button class="absolute -bottom-6 left-1/2 -translate-x-1/2">ZOBACZ GALERIĘ</Button>
     </div>
-    <div class="text-black80 w-[730px] ">
+    <div class="w-[730px] ">
       <h3 class="text-5xl font-bold">KIM JESTEŚMY?</h3>
       <p class="opacity-80 mt-10">
         Społeczność Chrześcijańska ‘OPOKA’ w Radlinie należy do Kościoła Ewangelicznych Chrześcijan w Polsce. Jesteśmy kościołem protestanckim prawnie działającym w Rzeczpospolitej Polskiej w oparciu o Statut, zatwierdzony przez MSWiA. Kościół Ewangelicznych Chrześcijan jest społecznością wielu lokalnych zborów, w których nabożeństwa charakteryzują się osobistym wyrażeniem swojej wiary w Jezusa Chrystusa jako osobistego Pana i Zbawiciela.

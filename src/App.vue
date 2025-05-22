@@ -2,16 +2,15 @@
 import Navigation from "@/components/Navigation.vue";
 import Hero from "@/components/Hero.vue";
 import ServiceInformation from "@/components/ServiceInformation.vue";
+import AboutUs from "@/components/AboutUs.vue";
 </script>
 
 <template>
-  <main class="px-5">
+  <main>
     <Navigation />
     <Hero />
     <ServiceInformation />
-    <section>
-
-    </section>
+    <AboutUs />
   </main>
 </template>
 

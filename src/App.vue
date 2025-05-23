@@ -5,6 +5,7 @@ import ServiceInformation from "@/components/ServiceInformation.vue";
 import AboutUs from "@/components/AboutUs.vue";
 import ChildrenMeetings from "@/components/ChildrenMeetings.vue";
 import Creed from "@/components/Creed.vue";
+import Feed from "@/components/Feed.vue";
 </script>
 
 <template>
@@ -15,6 +16,7 @@ import Creed from "@/components/Creed.vue";
     <AboutUs />
     <ChildrenMeetings />
     <Creed />
+    <Feed />
   </main>
 </template>
 

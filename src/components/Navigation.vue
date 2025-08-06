@@ -6,12 +6,12 @@
         <img src="@/assets/img/Logo_black.svg" alt="Logo" />
       </a>
 
-      <ul class="flex items-center gap-2">
+      <ul class="flex items-center gap-9">
         <li v-for="(item, index) in menuItems" :key="index">
           <a :href="item.href">{{ item.name }}</a>
         </li>
       </ul>
-      <Button>
+      <Button @click="goToContactView">
         SKONTAKTUJ SIĘ
       </Button>
     </div>
@@ -24,12 +24,17 @@ import Button from "@/components/Button.vue";
 
 type NavItem = {name: string, href: string};
 const menuItems: NavItem[] = [
-  { name: 'NABOŻEŃSTWA', href: '#' },
-  { name: 'O NAS', href: '#' },
-  { name: 'WYZNANIE WIARY', href: '#' },
-  { name: 'AKTUALNOŚCI', href: '#' },
-  { name: 'STANDARDY OCHRONY MAŁOLETNICH', href: '#' }
+  { name: 'NABOŻEŃSTWA', href: '#service-information' },
+  { name: 'O NAS', href: '#about-us' },
+  { name: 'WYZNANIE WIARY', href: '#creed' },
+  { name: 'AKTUALNOŚCI', href: '#feed' },
+  { name: 'STANDARDY OCHRONY MAŁOLETNICH', href: '#children-protection' }
 ];
+
+function goToContactView(): void {
+  const contact = document.getElementById("contact");
+  contact?.scrollIntoView();
+}
 
 </script>
 <style scoped>

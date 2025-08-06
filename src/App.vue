@@ -7,6 +7,7 @@ import ChildrenMeetings from "@/components/ChildrenMeetings.vue";
 import Creed from "@/components/Creed.vue";
 import Feed from "@/components/Feed.vue";
 import Contact from "@/components/Contact.vue";
+import Footer from "@/components/Footer.vue";
 </script>
 
 <template>
@@ -19,6 +20,7 @@ import Contact from "@/components/Contact.vue";
     <Creed />
     <Feed />
     <Contact />
+    <Footer />
   </main>
 </template>
 

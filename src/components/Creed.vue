@@ -1,5 +1,5 @@
 <template>
-  <section class="px-10">
+  <section id="creed" class="px-10">
     <div class="bg-cream rounded-4xl flex flex-col items-center justify-center py-[60px]">
       <div class="font-bold flex flex-col items-center justify-center gap-3">
         <h3 class="text-5xl">WYZNANIE WIARY</h3>

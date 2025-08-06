@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-cream px-4 py-[130px] flex items-center justify-center gap-[70px]">
+  <section id="about-us" class="bg-cream px-4 py-[130px] flex items-center justify-center gap-[70px]">
     <div class="relative">
       <img src="@/assets/img/about-us.png" alt="About us" />
       <Button class="absolute -bottom-6 left-1/2 -translate-x-1/2">ZOBACZ GALERIĘ</Button>

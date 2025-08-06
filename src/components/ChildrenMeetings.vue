@@ -1,5 +1,5 @@
 <template>
-  <section class="px-10 py-[60px] flex items-center justify-center">
+  <section id="children-meetings" class="px-10 py-[60px] flex items-center justify-center">
     <div class="grid grid-cols-[485px_1fr] h-auto">
       <div class="bg-primary py-[65px] pl-[80px] pr-4 flex flex-col gap-6 rounded-s-4xl">
         <h3 class="text-4xl font-bold">NAUCZANIE DZIECI I MŁODZIEŻY</h3>

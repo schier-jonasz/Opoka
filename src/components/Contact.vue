@@ -8,7 +8,9 @@
           <h4 class="text-nowrap">KOŚCIÓŁ EWANGELICZNYCH CHRZEŚCIJAN</h4>
           <p>UL.UJEJSKIEGO 7, 44-310 RADLIN</p>
         </div>
-        <Button hover-variant="outlined" class="flex-shrink-0">ZOBACZ MAPĘ</Button>
+        <a href="https://maps.app.goo.gl/sPRGQa1tES2LeLLE9" target="_blank" rel="noopener noreferrer">
+          <Button hover-variant="outlined" class="flex-shrink-0">ZOBACZ MAPĘ</Button>
+        </a>
       </div>
       <div class="flex items-center gap-10 py-10 border-b border-primary">
         <img src="@/assets/img/question-mark.svg" alt="Question mark" class="flex-shrink-0" />

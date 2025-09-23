@@ -1,9 +1,6 @@
 <template>
   <section id="about-us" class="bg-cream px-4 py-[130px] flex items-center justify-center gap-[70px]">
-    <div class="relative">
-      <img src="@/assets/img/about-us.png" alt="About us" />
-      <Button class="absolute -bottom-6 left-1/2 -translate-x-1/2">ZOBACZ GALERIĘ</Button>
-    </div>
+    <Carousel />
     <div class="w-[730px] ">
       <h3 class="text-5xl font-bold">KIM JESTEŚMY?</h3>
       <p class="opacity-80 mt-10">
@@ -18,6 +15,7 @@
 <script setup lang="ts">
 
 import Button from "@/components/Button.vue";
+import Carousel from "./Carousel.vue";
 </script>
 <style scoped>
 

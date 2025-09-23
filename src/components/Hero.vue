@@ -5,9 +5,9 @@
         <h1 class="font-bold text-6xl">
           <span class="text-nowrap"><span class="text-primary">OPOKA</span> - Kościól</span> Ewangelicznych Chrześcijan
         </h1>
-        <Button>
-          TRANSMISJA NABOŻEŃSTWA ONLINE
-        </Button>
+        <a href="https://www.youtube.com/@kechopokaradlin8039/featured" target="_blank" rel="noopener noreferrer">
+          <Button>TRANSMISJA NABOŻEŃSTWA ONLINE</Button>
+        </a>
       </div>
       <p class="w-[410px] font-medium text-lg
         relative before:absolute before:-left-7 before:top-[0.7em] before:w-[20px] before:h-[2px] before:bg-primary"

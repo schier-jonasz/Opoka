@@ -16,9 +16,10 @@
             <li><a href="#feed">AKTUALNOŚCI</a></li>
             <li><a href="#contact">KONTAKT</a></li>
             <li>
-              <div class="flex items-center gap-5">
-                <img src="@/assets/img/facebook.svg" alt="Facebook" />
-                <img src="@/assets/img/instagram.svg" alt="Instagram" />
+              <div class="flex items-center gap-5">              
+                <a href="https://www.facebook.com/opokaradlin" target="_blank" rel="noopener noreferrer">
+                  <img src="@/assets/img/facebook.svg" alt="Facebook" />
+                </a>
               </div>
             </li>
           </ul>
@@ -27,7 +28,9 @@
 
       <div class="flex flex-col gap-5 max-w-[370px]">
         <p class="font-bold text-white text-xl">ZAPRASZAMY NA NABOŻENSTWA STACJONARNIE LUB ONLINE</p>
-        <Button>TRANSMISJA NABOŻENSTWA ONLINE</Button>
+        <a href="https://www.youtube.com/@kechopokaradlin8039/featured" target="_blank" rel="noopener noreferrer">
+          <Button>TRANSMISJA NABOŻENSTWA ONLINE</Button>
+        </a>
       </div>
   </footer>
 </template>

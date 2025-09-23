@@ -1,6 +1,6 @@
 <template>
   <button
-    class="px-12 rounded-xl bg-primary text-black80 transition-colors duration-200 h-12 text-nowrap text-center"
+    class="px-12 rounded-xl bg-primary text-black80 transition-colors duration-200 h-12 text-nowrap text-center cursor-pointer"
     :class="{
       'hover:bg-secondary': hoverVariant === 'primary',
       'hover:bg-transparent hover:ring-2 hover:ring-primary': hoverVariant === 'outlined'

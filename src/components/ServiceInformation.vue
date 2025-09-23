@@ -7,7 +7,9 @@
     <div class="flex justify-center gap-4 my-10">
       <article class="px-8 py-10 rounded-xl bg-secondary flex items-center justify-center gap-3">
         <p class="text-[28px]"><span class="font-bold">NABOŻEŃSTWO</span> | NIEDZIELA 10:00</p>
-        <Button hover-variant="outlined">TRANSMISJA</Button>
+        <a href="https://www.youtube.com/@kechopokaradlin8039/featured" target="_blank" rel="noopener noreferrer">
+          <Button hover-variant="outlined">TRANSMISJA</Button>
+        </a>
       </article>
       <article class="px-8 py-10 rounded-xl bg-secondary flex items-center justify-center">
         <p class="text-[28px]"><span class="font-bold">STUDIUM SŁOWA BOŻEGO</span> | ŚRODA 18:00</p>
@@ -19,7 +21,9 @@
         <span class="font-bold text-nowrap">KOŚCIÓŁ EWANGELICZNYCH CHRZEŚCIJAN</span>
         <span class="text-nowrap">UL.UJEJSKIEGO 7, 44-310 RADLIN</span>
       </p>
-      <Button>ZOBACZ MAPĘ</Button>
+      <a href="https://maps.app.goo.gl/sPRGQa1tES2LeLLE9" target="_blank" rel="noopener noreferrer">
+        <Button>ZOBACZ MAPĘ</Button>
+      </a>
     </div>
   </section>
 </template>

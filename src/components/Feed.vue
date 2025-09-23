@@ -7,7 +7,9 @@
         <h3 class="text-5xl font-bold z-10">AKTUALNOŚCI</h3>
         <p class="max-w-[435px] text-center opacity-80">Bądź na bieżąco! Wszystkie aktualności, ważne ogłoszenia
           i nadchodzące wydarzenia publikujemy na naszym Facebooku. Dołącz do naszej społeczności i śledź nas, aby zawsze być na bieżąco! Odwiedź nasz profil i zobacz, co nowego!</p>
-        <Button class="absolute -bottom-5" @mouseenter="isHovering = true" @mouseleave="isHovering = false">ODWIEDŹ PROFIL</Button>
+          <a class="absolute -bottom-5" href="https://www.facebook.com/opokaradlin" target="_blank" rel="noopener noreferrer">
+            <Button class="" @mouseenter="isHovering = true" @mouseleave="isHovering = false">ODWIEDŹ PROFIL</Button>
+          </a>
       </div>
     </div>
   </section>

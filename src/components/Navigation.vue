@@ -28,10 +28,11 @@ const menuItems: NavItem[] = [
   { name: 'O NAS', href: '#about-us' },
   { name: 'WYZNANIE WIARY', href: '#creed' },
   { name: 'AKTUALNOŚCI', href: '#feed' },
-  { name: 'STANDARDY OCHRONY MAŁOLETNICH', href: '#children-protection' }
+  { name: 'STANDARDY OCHRONY MAŁOLETNICH', href: '#standardy-ochrony-maloletnich' }
 ];
 
 function goToContactView(): void {
+  window.location.href = "#contact";
   const contact = document.getElementById("contact");
   contact?.scrollIntoView();
 }

@@ -1,6 +1,6 @@
 # Opoka
 
-This template should help get you started developing with Vue 3 in Vite.
+A modern Vue 3 website built with Vite and Tailwind CSS.
 
 ## Recommended IDE Setup
 
@@ -37,3 +37,20 @@ npm run build
 ```sh
 npm run lint
 ```
+
+## Deployment
+
+The website can be deployed to any static hosting service. The build output is in the `dist/` directory.
+
+### Quick Deploy Options
+
+- **Vercel**: Connect your GitHub repository to Vercel for automatic deployments
+- **Netlify**: Drag and drop the `dist/` folder or connect via Git
+- **GitHub Pages**: Use GitHub Actions to build and deploy automatically
+- **Firebase Hosting**: Use Firebase CLI to deploy the `dist/` folder
+
+### Manual Deployment
+
+1. Build the project: `npm run build`
+2. Upload the contents of the `dist/` directory to your hosting provider
+3. Configure your domain if using a custom domain

@@ -1,11 +1,11 @@
 <template>
-  <section id="creed" class="px-10">
+  <section id="creed" class="px-10 max-md:px-[10px]">
     <div class="bg-cream rounded-4xl flex flex-col items-center justify-center py-[60px]">
       <div class="font-bold flex flex-col items-center justify-center gap-3">
-        <h3 class="text-5xl">WYZNANIE WIARY</h3>
-        <p>WIERZYMY W</p>
+        <h3 class="text-5xl max-lg:text-3xl max-md:text-2xl">WYZNANIE WIARY</h3>
+        <p class="md:text-[20px]">WIERZYMY W</p>
       </div>
-      <div class="mt-12 mb-[60px] grid grid-cols-3 grid-rows-subgrid auto-rows-[1fr] gap-6 w-full max-w-6xl">
+      <div class="mt-12 px-4 mb-[60px] grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 grid-rows-subgrid auto-rows-[1fr] gap-6 w-full max-w-6xl">
         <CreedCard
           v-for="(creed, index) in creeds"
           :key="creed"
@@ -13,7 +13,7 @@
           :text="creed"
         />
       </div>
-      <div class="text-primary text-center max-w-[830px] flex flex-col items-center justify-center">
+      <div class="text-primary text-center max-w-[830px] max-md:w-[280px] flex flex-col items-center justify-center">
         <img src="@/assets/img/quote.svg" alt="Quote icon" />
         <p class="text-2xl  font-semibold mt-10">Bóg nie ma względu na osobę, lecz w każdym narodzie miły Mu jest ten, kto się Go boi i sprawiedliwie postępuje.</p>
         <p class="text-xl mt-7">Dzieje Apostolskie 10:34-35</p>

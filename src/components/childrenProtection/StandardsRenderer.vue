@@ -2,9 +2,9 @@
     <div class="text-black80">
         <div v-for="(standard, standardIndex) in standards" :key="standardIndex" class="grid gap-9">
             <div class="text-center">
-                <h3 class="text-[28px]">§ {{ standardIndex + 1 }}</h3>
+                <h3 class="text-[28px] max-lg:text-[20px]">§ {{ standardIndex + 1 }}</h3>
             </div>
-            <h2 class="text-center leading-8 text-balance text-[28px]">{{ standard.title }}</h2>
+            <h2 class="text-center leading-8 text-balance text-[28px] max-lg:text-[20px]">{{ standard.title }}</h2>
             <div>
                 <RuleItem
                     v-for="(rule, ruleIndex) in standard.rules"

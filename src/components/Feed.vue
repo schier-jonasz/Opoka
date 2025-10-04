@@ -1,10 +1,10 @@
 <template>
   <section id="feed" class="py-[60px]">
     <div class="bg-[url(@/assets/img/feed-background.png)] h-[540px] flex items-center justify-center bg-no-repeat bg-cover bg-center">
-      <div class="feed-pseudo flex flex-col items-center justify-center gap-10 py-[60px] px-28 rounded-4xl relative"
+      <div class="feed-pseudo max-md:w-[300px] flex flex-col items-center justify-center gap-10 py-[60px] px-28 max-md:px-[20px] rounded-4xl relative"
            :class="{ 'is-hovering': isHovering }"
       >
-        <h3 class="text-5xl font-bold z-10">AKTUALNOŚCI</h3>
+        <h3 class="text-5xl max-lg:text-3xl max-md:text-2xl font-bold z-10">AKTUALNOŚCI</h3>
         <p class="max-w-[435px] text-center opacity-80">Bądź na bieżąco! Wszystkie aktualności, ważne ogłoszenia
           i nadchodzące wydarzenia publikujemy na naszym Facebooku. Dołącz do naszej społeczności i śledź nas, aby zawsze być na bieżąco! Odwiedź nasz profil i zobacz, co nowego!</p>
           <a class="absolute -bottom-5" href="https://www.facebook.com/opokaradlin" target="_blank" rel="noopener noreferrer">

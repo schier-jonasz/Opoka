@@ -1,11 +1,11 @@
 <template>
-    <div class="relative w-[450px] h-[300px]">
+    <div class="relative w-[450px] h-[300px max-lg:w-[280px] max-lg:h-[180px]">
       <img 
           :src="currentImage" 
           :alt="`Zdjęcie-${currentIndex}`"
           class="w-full h-full object-cover rounded-3xl"
         />
-        <div class="w-[250px] h-9 bg-primary rounded-xl absolute -bottom-6 left-1/2 -translate-x-1/2 px-12 py-2.5 flex justify-center items-center gap-4">
+        <div class="w-[250px] h-9 bg-primary rounded-xl absolute -bottom-6 max-lg:-bottom-11 left-1/2 -translate-x-1/2 px-12 py-2.5 flex justify-center items-center gap-4">
             <div class="relative w-5 h-5 rounded-full bg-secondary">
                 <img
                     src="@/assets/img/Arrow.svg"

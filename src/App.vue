@@ -27,8 +27,8 @@ onMounted(() => {
 </script>
 
 <template>
-  <main class="text-black80">
-    <Navigation />
+  <main class="text-black80 max-lg:pt-22">
+    <Navigation class="mb-[10px]" />
     <template v-if="!currentPage.includes(childrenProtectionString)">
       <Hero />
       <ServiceInformation />

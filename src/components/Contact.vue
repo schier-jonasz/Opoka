@@ -21,9 +21,9 @@
             <h4 class="font-bold">MASZ PYTANIE LUB POTRZEBUJESZ DUCHOWEGO WSPARCIA?</h4>
             <div class="flex text-nowrap divide-x divide-primary max-lg:flex-col max-lg:divide-x-0 max-lg:gap-2">
               <p class="pr-4 max-lg:pr-0">ALEKSANDER 690 498 984</p>
-              <p class="px-4 max-lg:px-0">KRYSTIAN 604 189 626</p>
               <p class="pl-4 max-lg:pl-0">MICHAŁ 607 131 190</p>
             </div>
+            <p class="mt-2">kontakt.opokaradlin@gmail.com</p>
           </div>
         </div>
       </div>

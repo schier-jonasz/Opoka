@@ -9,6 +9,7 @@ import Feed from "@/components/Feed.vue";
 import Contact from "@/components/Contact.vue";
 import Footer from "@/components/Footer.vue";
 import ChildrenProtection from "@/components/childrenProtection/ChildrenProtection.vue";
+import ChildrenService from "@/components/ChildrenService.vue";
 
 import { ref, onMounted } from "vue";
 
@@ -33,7 +34,10 @@ onMounted(() => {
       <Hero />
       <ServiceInformation />
       <AboutUs />
-      <ChildrenMeetings />
+      <div class="px-10 py-[60px] max-lg:px-4 max-lg:py-8 grid gap-15">
+        <ChildrenMeetings />
+        <ChildrenService />
+      </div>
       <Creed />
       <Feed />
       <Contact />

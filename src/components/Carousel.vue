@@ -1,5 +1,5 @@
 <template>
-    <div class="relative w-[450px] h-[300px max-lg:w-[280px] max-lg:h-[180px]">
+    <div class="relative w-[450px] h-[300px] max-lg:w-[280px] max-lg:h-[180px]">
       <img 
           :src="currentImage" 
           :alt="`Zdjęcie-${currentIndex}`"

@@ -1,5 +1,5 @@
 <template>
-  <section id="feed" class="py-[60px]">
+  <section id="aktualnosci" class="py-[60px]">
     <div class="bg-[url(@/assets/img/feed-background.png)] h-[540px] flex items-center justify-center bg-no-repeat bg-cover bg-center">
       <div class="feed-pseudo max-md:w-[300px] flex flex-col items-center justify-center gap-10 py-[60px] px-28 max-md:px-[20px] rounded-4xl relative"
            :class="{ 'is-hovering': isHovering }"

@@ -11,7 +11,7 @@ import Footer from "@/components/Footer.vue";
 import ChildrenProtection from "@/components/childrenProtection/ChildrenProtection.vue";
 import ChildrenService from "@/components/ChildrenService.vue";
 
-import { ref, onMounted } from "vue";
+import { ref, onMounted, watch, nextTick } from "vue";
 
 const childrenProtectionString: string = "standardy-ochrony-maloletnich";
 
@@ -19,12 +19,52 @@ const currentPage = ref<string>("");
 
 const handleHashChange = () => {
   currentPage.value = window.location.hash;
-}
+};
 
 onMounted(() => {
-  handleHashChange()
-  window.addEventListener('hashchange', handleHashChange)
-})
+  handleHashChange();
+  window.addEventListener("hashchange", handleHashChange);
+});
+
+watch(
+  currentPage,
+  async (newVal) => {
+    // Widok ChildrenProtection sam steruje swoim scrollowaniem
+    if (newVal.includes(childrenProtectionString)) {
+      return;
+    }
+
+    const hash = newVal || window.location.hash;
+
+    // Brak konkretnego hasha – przewiń na górę głównego widoku
+    if (!hash || hash === "#") {
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "auto",
+      });
+      return;
+    }
+
+    await nextTick();
+
+    const target = document.querySelector(hash);
+
+    if (target) {
+      (target as HTMLElement).scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    } else {
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "auto",
+      });
+    }
+  },
+  { flush: "post" }
+);
 </script>
 
 <template>

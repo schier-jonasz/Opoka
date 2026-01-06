@@ -3,7 +3,7 @@
     <div class="bg-[url('@/assets/img/hero-background.png')] w-full h-full bg-no-repeat bg-cover bg-center rounded-4xl text-white flex max-md:flex-col items-center justify-center max-lg:gap-28 gap-20 px-8">
       <div class="w-[470px] max-lg:w-[280px] flex flex-col gap-11">
         <h1 class="font-bold text-6xl max-lg:text-4xl">
-          <span class="text-nowrap"><span class="text-primary">OPOKA</span> - Kościól</span> Ewangelicznych Chrześcijan
+          <span class="text-nowrap"><span class="text-primary">OPOKA</span> - Kościół</span> Ewangelicznych Chrześcijan
         </h1>
         <a href="https://www.youtube.com/@kechopokaradlin8039/featured" target="_blank" rel="noopener noreferrer">
           <Button class="max-lg:!px-3">TRANSMISJA NABOŻEŃSTWA ONLINE</Button>

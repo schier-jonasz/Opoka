@@ -33,6 +33,15 @@
 </template>
 
 <script setup lang="ts">
+import { onMounted } from 'vue';
 import { standards, recrutationRules } from './standards';
 import StandardsRenderer from './StandardsRenderer.vue';
+
+onMounted(() => {
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'auto',
+    });
+});
 </script>

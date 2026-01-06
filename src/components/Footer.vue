@@ -12,19 +12,19 @@
 
         <div class="flex gap-20 text-white text-xs max-lg:flex-col max-lg:gap-6 max-lg:w-full">
           <div class="flex flex-col gap-4">
-            <p>KOŚCIÓŁ EWANGELICZNYCH CHRZEŚCIJAN “OPOKA</p>
+            <p>KOŚCIÓŁ EWANGELICZNYCH CHRZEŚCIJAN "OPOKA"</p>
             <p>UL.UJEJSKIEGO 7, 44-310 RADLIN</p>
           </div>
           <div class="hidden max-lg:block max-lg:w-full max-lg:h-[1px] bg-white"></div>
           <div class="flex gap-20 text-white text-xs">
             <ul class="flex flex-col gap-4">
-              <li><a href="#about-us">O NAS</a></li>
-              <li><a href="#creed">WYZNANIE WIARY</a></li>
-              <li><a href="#children-protection">STANDARDY OCHRONY MAŁOLETNICH</a></li>
+              <li><a href="#o-nas">O NAS</a></li>
+              <li><a href="#wyznanie-wiary">WYZNANIE WIARY</a></li>
+              <li><a href="#standardy-ochrony-maloletnich">STANDARDY OCHRONY MAŁOLETNICH</a></li>
             </ul>
             <ul class="flex flex-col gap-4">
-              <li><a href="#feed">AKTUALNOŚCI</a></li>
-              <li><a href="#contact">KONTAKT</a></li>
+              <li><a href="#aktualnosci">AKTUALNOŚCI</a></li>
+              <li><a href="#kontakt">KONTAKT</a></li>
               <li>
                 <div class="flex items-center gap-5">              
                   <a href="https://www.facebook.com/opokaradlin" target="_blank" rel="noopener noreferrer">

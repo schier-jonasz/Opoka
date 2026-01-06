@@ -46,16 +46,16 @@ import { ref, onMounted, onUnmounted } from "vue";
 
 type NavItem = {name: string, href: string};
 const menuItems: NavItem[] = [
-  { name: 'NABOŻEŃSTWA', href: '#service-information' },
-  { name: 'O NAS', href: '#about-us' },
-  { name: 'WYZNANIE WIARY', href: '#creed' },
-  { name: 'AKTUALNOŚCI', href: '#feed' },
+  { name: 'NABOŻEŃSTWA', href: '#nabozenstwa' },
+  { name: 'O NAS', href: '#o-nas' },
+  { name: 'WYZNANIE WIARY', href: '#wyznanie-wiary' },
+  { name: 'AKTUALNOŚCI', href: '#aktualnosci' },
   { name: 'STANDARDY OCHRONY MAŁOLETNICH', href: '#standardy-ochrony-maloletnich' }
 ];
 
 function goToContactView(): void {
-  window.location.href = "#contact";
-  const contact = document.getElementById("contact");
+  window.location.href = "#kontakt";
+  const contact = document.getElementById("kontakt");
   contact?.scrollIntoView();
 }
 

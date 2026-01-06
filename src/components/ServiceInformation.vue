@@ -1,5 +1,5 @@
 <template>
-  <section id="service-information" class="flex flex-col items-center py-10 max-lg:px-4">
+  <section id="nabozenstwa" class="flex flex-col items-center py-10 max-lg:px-4">
     <h2 class="font-bold text-5xl max-lg:text-3xl">NABOŻEŃSTWA</h2>
     <p class="w-[660px] text-black80/80 text-center mt-8 max-lg:w-full max-lg:px-4">
       Serdecznie zapraszamy na nasze nabożeństwa. Spotykamy się, by wspólnie wielbić Boga, słuchać Jego Słowa i budować się nawzajem w wierze. Nabożeństwa mają charakter otwarty – każdy jest mile widziany, niezależnie od wieku, doświadczenia czy miejsca na drodze duchowej.

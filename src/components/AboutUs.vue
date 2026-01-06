@@ -1,5 +1,5 @@
 <template>
-  <section id="about-us" class="bg-cream px-4 py-[130px] flex items-center justify-center gap-[70px] max-lg:flex-col max-lg:py-8 max-lg:gap-8 max-lg:px-4">
+  <section id="o-nas" class="bg-cream px-4 py-[130px] flex items-center justify-center gap-[70px] max-lg:flex-col max-lg:py-8 max-lg:gap-8 max-lg:px-4">
     <Carousel />
     <div class="w-[730px] max-lg:w-[280px] max-lg:mt-10 max-lg:text-center">
       <h3 class="text-5xl max-lg:text-2xl font-bold">KIM JESTEŚMY?</h3>

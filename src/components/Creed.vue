@@ -1,5 +1,5 @@
 <template>
-  <section id="creed" class="px-10 max-md:px-[10px]">
+  <section id="wyznanie-wiary" class="px-10 max-md:px-[10px]">
     <div class="bg-cream rounded-4xl flex flex-col items-center justify-center py-[60px]">
       <div class="font-bold flex flex-col items-center justify-center gap-3">
         <h3 class="text-5xl max-lg:text-3xl max-md:text-2xl">WYZNANIE WIARY</h3>
@@ -26,14 +26,14 @@ import CreedCard from "@/components/CreedCard.vue";
 
 const creeds: string[] = [
   "Boże natchnienie Starego i Nowego Testamentu, co oznacza nieomylność Biblii w objawieniu woli Bożej dotyczącej zbawienia grzesznego człowieka. Biblia składająca się z 66 ksiąg jest jedynym autorytetem w chrześcijańskiej wierze.",
-  "Jedynego Boga , Stwórcę wszechświata , doskonałego i odwiecznie istniejącego w trzech Osobach: Ojca , Syna i Ducha Świętego",
-  "Jezusa Chrystusa – narodzonego z Ducha Świętego i Marii Panny , który umarł na krzyżu, aby wybawić ludzi z grzechu. Ojciec wzbudził go z martwych, aby zasiadł na tronie w niebie",
+  "Jedynego Boga, Stwórcę wszechświata, doskonałego i odwiecznie istniejącego w trzech Osobach: Ojca, Syna i Ducha Świętego.",
+  "Jezusa Chrystusa – narodzonego z Ducha Świętego i Marii Panny, który umarł na krzyżu, aby wybawić ludzi z grzechu. Ojciec wzbudził go z martwych, aby zasiadł na tronie w niebie.",
   "Ducha Świętego, którego zadaniem jest uwielbienie Jezusa Chrystusa. W obecnym czasie przekonuje on człowieka o grzechu, sprawiedliwości i sądzie. Duch Święty odnawia grzesznika poprzez zamieszkanie w jego sercu przez wiarę oraz wyposaża w moc niezbędną do chrześcijańskiego życia.",
-  "To, że człowiek został stworzony na podobieństwo Boże, lecz upadł w grzech oraz to, że jest zgubiony na wieki, jednak przez odrodzenie w Duchu Świętym i poprzez Słowo Boże może uzyskać zbawienie wieczne",
-  "To , że krew Jezusa Chrystusa przelana na krzyżu i jego zmartwychwstanie są jedynym fundamentem usprawiedliwienia i zbawienia wszystkich, którzy uwierzą. Tylko ci, którzy wiarą przyjęli Jezusa, są zrodzeni na nowo przez Ducha Świętego, aby stać się dziećmi Bożymi.",
-  "To , że chrzest i Wieczerza Pańska są jedynymi ustanowieniami w kościele. Praktykowanie ich nie daje jednak gwarancji zbawienia, które jest z wiary.",
+  "To, że człowiek został stworzony na podobieństwo Boże, lecz upadł w grzech oraz to, że jest zgubiony na wieki, jednak przez odrodzenie w Duchu Świętym i poprzez Słowo Boże może uzyskać zbawienie wieczne.",
+  "To, że krew Jezusa Chrystusa przelana na krzyżu i jego zmartwychwstanie są jedynym fundamentem usprawiedliwienia i zbawienia wszystkich, którzy uwierzą. Tylko ci, którzy wiarą przyjęli Jezusa, są zrodzeni na nowo przez Ducha Świętego, aby stać się dziećmi Bożymi.",
+  "To, że chrzest i Wieczerza Pańska są jedynymi ustanowieniami w kościele. Praktykowanie ich nie daje jednak gwarancji zbawienia, które jest z wiary.",
   "To, że jedyną głową Kościoła jest Jezus Chrystus, a każdy lokalny zbór jest poddany jego zwierzchnictwu.",
-  "W powtórne przyjście Pana Jezusa Chrystusa po swój kościół i cielesne zmartwychwstanie umarłych: wierzących do życia wiecznego, niewierzących na wieczne oddzielenie od Boga"
+  "Powtórne przyjście Pana Jezusa Chrystusa po swój kościół i cielesne zmartwychwstanie umarłych: wierzących do życia wiecznego, niewierzących na wieczne oddzielenie od Boga."
 ]
 </script>
 <style scoped>

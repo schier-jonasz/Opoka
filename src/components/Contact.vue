@@ -1,5 +1,5 @@
 <template>
-  <section id="contact" class="rounded-t-4xl bg-secondary mx-10 max-md:mx-0 py-[60px] flex flex-col items-center justify-center">
+  <section id="kontakt" class="rounded-t-4xl bg-secondary mx-10 max-md:mx-0 py-[60px] flex flex-col items-center justify-center">
     <h3 class="font-bold text-5xl max-lg:text-3xl max-md:text-2xl">SKONTAKTUJ SIĘ Z NAMI</h3>
     <div class="w-[960px] max-lg:w-[400px] max-md:w-[280px] mt-[60px] max-lg:mt-[30px] flex flex-col">
       <div class="flex max-md:flex-col items-center gap-10 max-lg:gap-8 pb-10 border-b border-primary">

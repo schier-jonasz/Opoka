@@ -1,7 +1,7 @@
 <template>
   <nav 
     aria-label="main-navigation" 
-    class="px-20 py-2.5 bg-white w-full transition-transform duration-300 ease-in-out max-lg:fixed max-lg:top-0 max-lg:left-0 max-lg:right-0 max-lg:z-50 max-lg:shadow-[0px_0px_8px_0px_#22222214]"
+    class="px-20 max-lg:px-4 py-2.5 bg-white w-full transition-transform duration-300 ease-in-out max-lg:fixed max-lg:top-0 max-lg:left-0 max-lg:right-0 max-lg:z-50 max-lg:shadow-[0px_0px_8px_0px_#22222214]"
     :class="{
       'max-lg:-translate-y-full': isHidden && !isAtTop,
       'max-lg:translate-y-0': !isHidden || isAtTop
